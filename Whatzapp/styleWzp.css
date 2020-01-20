@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.main > article {
+    border: 1px solid rgba(0,0,0,.3);
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.contacts {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoverstyle a:hover{
+    cursor: pointer;
+    background: #6cc7e2c0;
+}
+
+.messages {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 20%;
+    width: 100%;
+    border-bottom: 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    background-color: #ededed;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.contact-list > a {
+    height: 20%;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+    text-align: left;
+    vertical-align: bottom;
+    text-decoration: none;
+    color: gray;
+}
+
+.contact-list > a.active {
+    font-weight: 300;
+    color: white;
+}
+
+.message-list {
+    width: 100%;
+    height: 65%;
+}
+
+.image{
+    width: 100%;
+}
+
+.message-input {
+    width: 580px;
+    height: 50px;
+    border-top: 1px solid rgba(0,0,0,.3);
+    background: #f0f0f0;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.message-input > textarea {
+    width: 500px;
+    height: 30px;
+    border-radius: 10%;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.pic{
+    padding: 1px 1px 1px 1px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+h1 {
+text-align: center;
+padding-top: 40px;
+}
+   
